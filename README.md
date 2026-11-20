@@ -2,6 +2,14 @@
 
 > **The operations-first, offline-capable restaurant management system. One backbone for table, kitchen, inventory, and analytics — running on any device, with or without internet.**
 
+## Highlights
+- **Keeps working offline:** an installable PWA that stores orders locally and syncs them when the connection returns, with idempotent APIs so nothing is charged or sent to the kitchen twice.
+- **One flow from table to stock:** table or counter ordering → **Kitchen Display System** with per-station routing (grill, fryer, bar, expo…) over WebSockets → **recipe-based inventory deduction** → next-morning variance and sales analytics.
+- **Built for real service:** split, merge, hold, reopen, void and partial refunds; mixed and multi-tender payments with tips; a keyboard-driven **Ultra-Fast POS** mode for high-volume counters.
+- **Multi-tenant SaaS:** organizations with multiple stores, brand-level menus with per-store overrides, role-based permissions and a full audit trail of every void, discount and edit.
+- **Back office included:** suppliers, purchase orders, stock adjustments, expenses, reservations, floors and tables, customers with credit tracking, discounts and promo codes.
+- **Platform operations:** Stripe billing, health monitoring and system alerts, onboarding flow; tested with Vitest + Supertest (backend) and Playwright end-to-end flows.
+
 
 ---
 
