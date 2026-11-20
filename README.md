@@ -1,9 +1,7 @@
-# Restaurant POS Restaurant
+# Restaurant System
 
 > **The operations-first, offline-capable restaurant management system. One backbone for table, kitchen, inventory, and analytics — running on any device, with or without internet.**
 
-Live marketing site: [](https://)
-App: [app.](https://app.)
 
 ---
 
@@ -42,7 +40,7 @@ App: [app.](https://app.)
 
 ## 1. What This Is
 
-**Restaurant POS Restaurant** is a full-stack, multi-tenant SaaS restaurant management system. It replaces the fragile mosaic that most restaurants run on — a separate POS, a spreadsheet for stock, a printer that crashes when Wi-Fi drops, a notebook for reservations — with one integrated operational backbone.
+**Restaurant System** is a full-stack, multi-tenant SaaS restaurant management system. It replaces the fragile mosaic that most restaurants run on — a separate POS, a spreadsheet for stock, a printer that crashes when Wi-Fi drops, a notebook for reservations — with one integrated operational backbone.
 
 It is **not** a "POS with extras." It is an end-to-end operating system for the restaurant floor: from the guest sitting down at a table, through the order moving to the kitchen, to inventory being deducted, to the manager seeing the variance the next morning — all in one continuous flow that does not break when the internet does.
 
@@ -416,7 +414,7 @@ Each folder contains its Redux slice + UI + sub-components:
 - **React 19 + Vite 7 + Tailwind 4**
 - **vite-react-ssg** for static rendering → fast first paint + SEO
 - **EmailJS** for lead-capture form submission (no backend round-trip)
-- **WhatsApp deep-link** (``) for founder-direct contact
+- **WhatsApp deep-link** for founder-direct contact
 - **Hosted on Vercel** (see `vercel.json`)
 
 Source-of-truth copy is documented in [PRODUCT_SITE_CONTENT.md](PRODUCT_SITE_CONTENT.md). The site's narrative is reproduced in [§25 Marketing Positioning](#25-marketing-positioning).
@@ -1006,16 +1004,4 @@ Documented honestly in [checklist.md](checklist.md). Not yet shipped:
 
 ## 28. Support
 
-- **Email:** restaurant@
-- **WhatsApp (founder direct, no bots):** ``
-- **Marketing site:** [](https://)
-- **App:** [app.](https://app.)
-
-### Legal
-- [Privacy Policy](https:///privacy-policy)
-- [Terms of Service](https:///terms-of-service)
-- [Cookie Policy](https:///cookie-policy)
-
----
-
-© 2026 Restaurant POS Ltd. All rights reserved.
+Questions or a demo: contact [Bishir Tijjani](https://github.com/bishirtijjani).
